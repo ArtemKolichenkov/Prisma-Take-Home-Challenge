@@ -22,7 +22,7 @@ const evaluate = (
   }
   if (meta) {
     console.log(
-      `⏱️ Parsing in ${meta.parseDuration.toFixed(
+      `⏱️ Parsed in ${meta.parseDuration.toFixed(
         2,
       )} ms | Executed in ${meta.queryDuration.toFixed(2)} ms`,
     );

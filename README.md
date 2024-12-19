@@ -18,6 +18,11 @@ npm install
 npm run repl sampleFiles/organizations-100.csv
 ```
 
+4. Query the data, for example:  
+   `PROJECT name, founded, number_of_employees FILTER number_of_employees > 9000`
+
+![plot](./screenshot.png)
+
 ## Query langauge
 
 Query language is similar to SQL, with `PROJECT` clause (similar to `SELECT` in SQL) and `FILTER` clause (similar to `WHERE` in SQL).
